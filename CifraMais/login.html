@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - CifraMais</title>
-</head>
+    <title>Login - Seu Sistema</title>
+    <link rel="stylesheet" href="./Estilo/login.css">
+    </head>
 <body>
-    
+    <div class="login-container">
+        <header class="login-header">
+            <img src="./Fundo.png/CifraMais.img.png" alt="Logo" class="logo">
+            <h1>Bem vindo ao Cifra Mais!</h1>
+            <p>Acesse agora:</p>
+        </header>
+
+        <form class="login-form">
+            <div class="input-group">
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Password" required>
+            </div>
+
+            <button type="submit" class="login-button">
+                LOGIN
+            </button>
+
+            <div class="footer-links">
+                <a href="#" class="forgot-password">Esqueceu sua Conta?</a>
+            </div>
+
+            <div class="signup-prompt">
+                <p>Criar Conta</p>
+                <a href="#" class="signup-link">Criar minha Conta</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
