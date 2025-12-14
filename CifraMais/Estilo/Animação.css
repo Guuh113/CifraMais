@@ -19,11 +19,12 @@ header {
 }
 
 main section {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     display: grid;
     width: 500px;
     height: fit-content;
     justify-self: center;
-    background-color: #0b0e12;
+    background-color: #1b1f27;
     border-radius: 12px;
     font-size: 19px;
     padding: 25px;
@@ -37,35 +38,55 @@ main h3 {
 }
 
 #user {
+    border-width: 1px;
     border-radius: 5px;
-    border-color: solid #000000;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-style: solid;
+    color: #ffffff;
     width: 300px;
-    height: 30px;
+    height: 40px;
     margin: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 15px;
 }
 
 #idade {
+    border-width: 1px;
     border-radius: 5px;
-    border-color: solid #000000;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-style: solid;
+    color: #ffffff;
     width: 300px;
-    height: 30px;
+    height: 40px;
     margin: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 15px;
 }
 
 #email {
+    border-width: 1px;
     border-radius: 5px;
-    border-color: solid #000000;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-style: solid;
+    color: #ffffff;
     width: 300px;
-    height: 30px;
+    height: 40px;
     margin: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 15px;
 }
 
 #cpf {
+    border-width: 1px;
     border-radius: 5px;
-    border-color: solid #000000;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-style: solid;
+    color: #ffffff;
     width: 300px;
-    height: 30px;
+    height: 40px;
     margin: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 15px;
 }
 
 main button {
