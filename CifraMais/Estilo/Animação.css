@@ -46,8 +46,10 @@ main h3 {
     width: 300px;
     height: 40px;
     margin: 10px;
+    box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.1);
     font-size: 15px;
+    padding: 10px;
 }
 
 #idade {
@@ -61,6 +63,8 @@ main h3 {
     margin: 10px;
     background-color: rgba(255, 255, 255, 0.1);
     font-size: 15px;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 #email {
@@ -74,6 +78,8 @@ main h3 {
     margin: 10px;
     background-color: rgba(255, 255, 255, 0.1);
     font-size: 15px;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 #cpf {
@@ -87,6 +93,8 @@ main h3 {
     margin: 10px;
     background-color: rgba(255, 255, 255, 0.1);
     font-size: 15px;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 main button {
